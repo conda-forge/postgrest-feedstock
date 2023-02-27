@@ -16,14 +16,15 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - poetry
   run:
-    - python >=3.7
+    - python >=3.8
     - deprecation >=2.1.0
     - httpx >=0.23.0
     - pydantic >=1.9.0
+    - strenum >=0.4.9
 
 test:
   requires:
