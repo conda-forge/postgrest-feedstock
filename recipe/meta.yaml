@@ -1,14 +1,13 @@
 {% set name = "postgrest" %}
-{% set pypi_name = "postgrest-py" %}
-{% set version = "0.10.3" %}
+{% set version = "0.10.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 533faefd4e231200478dcaabf97c2523b567d6977fa77f19338ff97e5663fda3
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ee145d53ea8642a16fa7f42848443baa08ae1e6f41e071865f5f54bcb3b24aa3
 
 build:
   number: 0
