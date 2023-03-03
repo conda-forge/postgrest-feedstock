@@ -1,11 +1,11 @@
-About postgrest
-===============
+About postgrest-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/postgrest-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/supabase-community/postgrest-py
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/postgrest-feedstock/blob/main/LICENSE.txt)
 
 Summary: PostgREST client for Python. This library provides an ORM interface to PostgREST
 
