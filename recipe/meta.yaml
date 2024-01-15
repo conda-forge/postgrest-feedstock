@@ -1,5 +1,5 @@
 {% set name = "postgrest" %}
-{% set version = "0.13.2" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: aaaec0fd7e4745dc02c77e1b310689fcdfb669e43b4cb36d462221dc1d19a1bf
+  sha256: 2e6b4b2b721be2c4e2dbc8de49f8b6a8ed74663b3b0f6b04976c04e222b283cb
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - deprecation >=2.1.0
-    - httpx >=0.24.0,<0.25
+    - httpx >=0.24.0,<0.26
     - pydantic >=1.9.0,<3
     - strenum >=0.4.9
 
