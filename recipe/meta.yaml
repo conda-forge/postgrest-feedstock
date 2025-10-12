@@ -25,6 +25,7 @@ requirements:
     - httpx >=0.26.0,<0.28
     - pydantic >=1.9.0,<3
     - strenum >=0.4.9
+    - yarl >=1.20.1
 
 test:
   requires:
