@@ -1,5 +1,5 @@
 {% set name = "postgrest" %}
-{% set version = "2.24.0" %}
+{% set version = "2.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2b19a9f44ac06bea8f9fc936f6a609a66a4b3ce10e87f88ff59935e64a97578c
+  sha256: cfbec77ac2d93c1fb167a0574f409530715cb6cf7314f9a767a489803801948a
 
 build:
   number: 0
